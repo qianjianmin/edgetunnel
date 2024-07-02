@@ -34,8 +34,15 @@ let addresses = [];
 let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];
-let addressescsv = [];
-let DLS = 8;
+let addressescsv = [
+	'https://raw.githubusercontent.com/qianjianmin/WorkerVless2sub/main/443.csv',
+	'https://raw.githubusercontent.com/qianjianmin/WorkerVless2sub/main/2053.csv',
+	'https://raw.githubusercontent.com/qianjianmin/WorkerVless2sub/main/2083.csv',
+	'https://raw.githubusercontent.com/qianjianmin/WorkerVless2sub/main/2087.csv',
+	'https://raw.githubusercontent.com/qianjianmin/WorkerVless2sub/main/2096.csv',
+	'https://raw.githubusercontent.com/qianjianmin/WorkerVless2sub/main/8443.csv',
+];
+let DLS = 10240;
 let FileName = 'edgetunnel';
 let BotToken ='';
 let ChatID =''; 
