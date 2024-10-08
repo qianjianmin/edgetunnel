@@ -6,9 +6,9 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '90cd4a77-141a-43c9-991b-08263cfe9c10';
 
-let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org'
+let proxyIP = 'ProxyIP.US.fxxk.dedyn.io';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org'
 
-let sub = '';// 避免项目被滥用，现已取消内置订阅器
+let sub = 'https://sub2.qjm3.us.kg/sub/ddf00ad2-08b0-4eca-8aec-278a2203bb98#BPB-Normal';// 避免项目被滥用，现已取消内置订阅器
 let subconverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
@@ -36,36 +36,36 @@ let go2Socks5s = [
 ];
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
-	/*
-	'Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz#加入我的频道t.me/CMLiussss解锁更多优选节点',
-	'visa.cn:443',
-	'www.visa.com:8443',
-	'cis.visa.com:2053',
-	'africa.visa.com:2083',
-	'www.visa.com.sg:2087',
-	'www.visaeurope.at:2096',
-	'www.visa.com.mt:8443',
-	'qa.visamiddleeast.com',
-	'time.is',
-	'www.wto.org:8443',
-	'chatgpt.com:2087',
-	'icook.hk',
-	'104.17.0.0#IPv4',
-	'[2606:4700::]#IPv6'
-	*/
+	//*
+	//'Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz#加入我的频道t.me/CMLiussss解锁更多优选节点',
+	//'visa.cn:443',
+	//'www.visa.com:8443',
+	//'cis.visa.com:2053',
+	//'africa.visa.com:2083',
+	//'www.visa.com.sg:2087',
+	//'www.visaeurope.at:2096',
+	//'www.visa.com.mt:8443',
+	//'qa.visamiddleeast.com',
+	//'time.is',
+	//'www.wto.org:8443',
+	//'chatgpt.com:2087',
+	//'icook.hk',
+	//'104.17.0.0#IPv4',
+	//'[2606:4700::]#IPv6'
+	//*/
 ];
 let addressesapi = [];
 let addressesnotls = [
 	//当sub为空且域名带有"worker"字样时启用本地优选域名/优选IP，若不带端口号 noTLS默认端口为80，#号后为备注别名
-	/*
-	'usa.visa.com',
-	'myanmar.visa.com:8080',
-	'www.visa.com.tw:8880',
-	'www.visaeurope.ch:2052',
-	'www.visa.com.br:2082',
-	'www.visasoutheasteurope.com:2086',
-	'[2606:4700::1]:2095#IPv6'
-	*/
+	//*
+	//'usa.visa.com',
+	//'myanmar.visa.com:8080',
+	//'www.visa.com.tw:8880',
+	//'www.visaeurope.ch:2052',
+	//'www.visa.com.br:2082',
+	//'www.visasoutheasteurope.com:2086',
+	//'[2606:4700::1]:2095#IPv6'
+	//*/
 ];
 let addressesnotlsapi = [];
 let addressescsv = [];
