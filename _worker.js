@@ -36,67 +36,12 @@ let go2Socks5s = [
 ];
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
-'132.226.212.126:443',
-'141.144.193.16:443',
-'129.159.207.7:443',
-'141.147.107.44:443',
-'143.47.242.159:443',
-'152.70.54.208:443',
-'143.47.255.87:443'
+	//'132.226.212.126:443'
 ];
 let addressesapi = [];
 let addressesnotls = [
 	//当sub为空且域名带有"worker"字样时启用本地优选域名/优选IP，若不带端口号 noTLS默认端口为80，#号后为备注别名
-'download.yunzhongzhuan.com:80',
-'edtunnel-dgp.pages.dev:80',
-'fbi.gov:80',
-'gur.gov.ua:80',
-'icook.hk:80',
-'icook.tw:80',
-'ip.sb:80',
-'iplocation.io:80',
-'japan.com:80',
-'log.bpminecraft.com:80',
-'malaysia.com:80',
-'russia.com:80',
-'shopify.com:80',
-'singapore.com:80',
-'skk.moe:80',
-'time.cloudflare.com:80',
-'time.is:80',
-'whatismyipaddress.com:80',
-'www.4chan.org:80',
-'www.baipiao.eu.org:80',
-'www.boba88slot.com:80',
-'www.csgo.com:80',
-'www.digitalocean.com:80',
-'www.gco.gov.qa:80',
-'www.glassdoor.com:80',
-'www.gov.se:80',
-'www.gov.ua:80',
-'www.hugedomains.com:80',
-'www.iakeys.com:80',
-'www.ipaddress.my:80',
-'www.ipchicken.com:80',
-'www.ipget.net:80',
-'www.iplocation.net:80',
-'www.okcupid.com:80',
-'www.pcmag.com:80',
-'www.sean-now.com:80',
-'www.shopify.com:80',
-'www.udacity.com:80',
-'www.udemy.com:80',
-'www.visa.co.jp:80',
-'www.visa.com:80',
-'www.visa.com.hk:80',
-'www.visa.com.sg:80',
-'www.visa.com.tw:80',
-'www.visakorea.com:80',
-'www.whatismyip.com:80',
-'www.who.int:80',
-'www.whoer.net:80',
-'www.wto.org:80',
-'www.zsu.gov.ua:80'
+        //'download.yunzhongzhuan.com:80'
 ];
 let addressesnotlsapi = [];
 let addressescsv = [];
