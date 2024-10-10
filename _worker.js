@@ -36,20 +36,8 @@ let go2Socks5s = [
 ];
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
- 'whatismyipaddress.com:443',
- 'www.glassdoor.com:443',
- 'fbi.gov:443',
- 'www.digitalocean.com:443',
- 'www.okcupid.com:443',
- 'www.udemy.com:443',
- 'download.yunzhongzhuan.com:443',
- 'www.iplocation.net:443',
- 'www.csgo.com:443',
- 'www.ipaddress.my:443',
- 'www.gco.gov.qa:443',
- 'www.wto.org:443'
 ];
-let addressesapi = [];
+let addressesapi = ['https://gh.jianmin.eu.org/qianjianmin/Private-Library/main/dm.txt?token=qjm123'];
 let addressesnotls = [
 	//当sub为空且域名带有"worker"字样时启用本地优选域名/优选IP，若不带端口号 noTLS默认端口为80，#号后为备注别名
         //'download.yunzhongzhuan.com:80'
